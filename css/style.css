@@ -1,0 +1,191 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.abc{
+  color: white;
+  text-transform: uppercase;
+font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+
+h4{
+  color: white;
+  font-size: 10px; 
+font-weight: bold;
+  text-align: right;  
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color:  darkolivegreen;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+  height: 80px;
+}
+
+
+nav ul li a{
+  color:  whitesmoke;
+  font-size: 17px;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  text-decoration: none;
+    background-color: black;
+    color:  whitesmoke;
+    border-radius: 4px;
+    transition: ease-in 0.15s;
+    height: 50px;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+
+
+
+
+.button {
+    height: 65px ;
+    width: 320px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 8px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+
+  .button233 {
+    height: 180px ;
+    width: 320px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 8px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 3px solid darkolivegreen;
+}
+
+.button1:hover {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+.abx{
+width: 100px;
+height: 5px;
+color: brown;
+}
+
+
+
+
+
+
+@media (max-width: 900px){
+  .abc{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+font-weight: bold;
+  font-size: 35px;
+}
+}
+
+
+
+@media (max-width: 952px){
+.checkbtn{
+  display: block;
+}
+ul{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color:  darkolivegreen;
+  top: 80px;
+  left: -100%;
+font-weight: bold;
+  text-align: center;
+  transition: all .5s;
+}
+nav ul li{
+  display: block;
+}
+nav ul li{
+  font-size: 20px;
+}
+#check:checked ~ ul{
+  left: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
